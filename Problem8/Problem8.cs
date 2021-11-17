@@ -14,7 +14,8 @@ namespace Problem8
             int[,] twoDimArray = { {45, 55, 88}, {88, 32, 98}, {23, 78, 16}, {19, 82, 11}, {99, 21, 63}, {62, 25, 81}, {3,87,61},{2,51, 6}, {91, 93, 36}, {82, 49, 23},
                 {27, 35, 69}, {20, 91, 19} }; 
             int[] oneDimArray = new int[twoDimArray.Length];
-            //Console.WriteLine(twoDimArray.Length);
+            Console.WriteLine(twoDimArray.GetLength(0));
+            Console.WriteLine(twoDimArray.GetLength(1));
             DisplayTwoDimArray(twoDimArray); 
             StoreValues(twoDimArray, oneDimArray); 
             DisplayOneDimArray(oneDimArray); 
